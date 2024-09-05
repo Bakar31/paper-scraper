@@ -13,11 +13,10 @@ This Python script allows you to search arXiv for papers based on a keyword, dow
   - Authors
   - Published Date
   - Summary
-  - PDF URL
-  - Citation Count
   - DOI
   - Primary Category
   - All Categories
+  - PDF URL
 
 ## Requirements
 
@@ -34,12 +33,19 @@ This Python script allows you to search arXiv for papers based on a keyword, dow
 pip install arxiv requests
 ```
 
+or
+
+```
+make install
+```
+Be sure to activate the `venv` in you are using `make install`.
+
 ## Usage
 
 1. Run the script:
 
 ```
-python arxiv_search.py
+python main.py
 ```
 
 2. Enter a keyword when prompted.
